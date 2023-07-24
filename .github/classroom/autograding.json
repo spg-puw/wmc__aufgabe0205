@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Aufgabe1/T1",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Datum main'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T2",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Datum formatting'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T3",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Datum begin'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe2/T1",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Lottery main'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe2/T2",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Lottery set extension'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
