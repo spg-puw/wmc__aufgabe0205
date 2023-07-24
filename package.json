@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "aufgabe1.js",
+  "main": "aufgabe1.mjs",
   "scripts": {
     "start": "node ./node_modules/npm-run-all/bin/npm-run-all/index.js --sequential aufgabe1 aufgabe2",
     "aufgabe1": "node aufgabe1.mjs",
