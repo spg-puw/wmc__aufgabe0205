@@ -2,18 +2,18 @@
 
 
 /* Your implementation of Lottery */
-export function Lottery(numbers) {
+function Lottery(numbers) {
     
 }
 
 /* Test */
-export function testSet() {
+function testSet() {
     const set1 = new Set([1, 2, 3, 4, 5, 6]);
     const set2 = new Set([1, 3, 5, 7, 9, 11, 6]);
     console.log(`${set1.countIdentical(set2)} identical values.`);
 }
 
-export function main() {
+function main() {
     const lottery = new Lottery([13, 30, 1, 40, 41, 38]);
     const tipps = [
         [13, 30, 1, 40, 41],       // ignore (does not have 6 numbers)
